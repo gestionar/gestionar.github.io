@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="theme-color" content="#048CEF" />
+    <meta name="theme-color" content="#CEF048" />
     <meta
       name="description"
       content="Sitio web de muestra de gestion-R"
@@ -12,7 +12,7 @@
     <title>gestion-R</title>
     <style>
         body {
-            background-color: #0d0d0d;
+            background-color: #444;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -26,57 +26,63 @@
             -moz-osx-font-smoothing: grayscale;
         }
         .contenedor {
-            background-color: #0d0d0d;
-            height: 120px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            height: 100vh;
             width: 100%;
         }
         .negrotop {
-            background-image: linear-gradient(#0d0d0d, #48c);
-            height: 10px;
+            background-image: linear-gradient(#444, #48c);
+            height: 0.1vh;
             width: 100%;
             color: wheat;
         }
         .rayotop {
             background-image: linear-gradient(#48c, white);
-            height: 20px;
+            height: 1vh;
             width: 100%;
         }
         .rayobot {
             background-image: linear-gradient(white, #48c);
-            height: 20px;
+            height: 1vh;
             width: 100%;
         }
         .negrobot {
-            background-image: linear-gradient(#48c, #0d0d0d);
-            height: 10px;
+            background-image: linear-gradient(#48c, #444);
+            height: 0.1vh;
             width: 100%;
         }
         .btn {
-            padding: 12px;
-            border: 1px solid #c8e;
-            border-radius: 16px;
+            border: 1px #efe;
+            border-radius: 14px;
+            padding: 3vh;
+            margin: 10vh;
         }
-        .btn:hover {
-            background-image: linear-gradient(#c48, #84c);
-        }
+
         a {
+            padding: 10vh;
             text-decoration: none;
             color: whitesmoke;
-            font-size: 19px;
+            font-size: 3vh;
+        }
+        a:hover{
+            font-size: 4vh;
         }
 
     </style>
 </head>
 <body>
-    <h2>gestionar.github.io</h2>
-   <div class="contenedor">
+    <div class="contenedor">
+        <h2>gestionar.github.io</h2>
        <div class="negrotop"></div>
        <div class="rayotop"></div>
        <div class="rayobot"></div>
        <div class="negrobot"></div>
-   </div>
-   <div class="btn">
-       <a href="https://gestionar.github.io/demogestionar/">ir a la página de muestra</a>
+       <div class="btn">
+           <a href="https://gestionar.github.io/demogestionar/">ir a la página de muestra</a>
+       </div>
    </div>
 </body>
 </html>
